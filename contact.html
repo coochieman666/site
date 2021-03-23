@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <style>
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background: #2c2f33
+}
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            margin-top: 60px;
+            font-family: "Segoe UI";
+            color: white;
+        }
+      
+ul {
+    border-bottom-left-radius: 20px ;
+    border-top-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+    border-top-right-radius: 20px ;
+    list-style-type: none;
+    margin: 8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7289da;
+}
+
+li {
+    float: right;
+    font-weight: bold;
+    font-family : "Segoe UI";
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #99aab5;
+}
+
+    
+.info td {
+  font-size: 20px;
+  font-weight: bold;
+  font-family : "Segoe UI";
+  color: white;
+  margin-top:300px;
+}
+
+a.top-btn{
+    margin-right : 5%;
+    z-index: 5;
+}
+      .zoom img {
+transition: all 1s ease;
+  position: relative;
+}
+
+.zoom:hover img {
+z-index: 1;
+transform:scale(1.05);
+opacity:0.35;
+}
+      
+.image {
+width: 100%;
+height: 100%;
+}
+     
+#button {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgba(76, 175, 80, 0);
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 80px;
+}
+    
+.mail img{
+margin-left: 20px;
+}
+      
+</style> <title>contact</title>
+  </head>
+  <body> <button onclick="topFunction()" id="button"> <img src="up.png" margin-left="80px"
+
+        height="80px"></button>
+    <ul>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="projet.html">Projets</a></li>
+      <li><a href="Logiciel.html">Logiciels</a></li>
+      <li><a href="index.html">Accueil</a></li>
+    </ul>
+    <h1>Contact</h1>
+    <center>
+        <div style="margin-top:5%">
+            <a href="mailto:alexandre.toncelli@free.fr"><img class="mail" src="mail.png" style="height: 280px; width: 280px;"></a>
+            <a href="https://www.linkedin.com/in/alexandre-toncelli-190717176/" target="_blank"><img src="linkeldin.png"  style="margin-left:5%; height: 280px; width:280px"></a>
+        </div>
+    </center>
+  </body>
+</html>

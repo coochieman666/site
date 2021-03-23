@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title></title>
+    <style>
+body{
+  background-color: #2c2f33;
+}
+      
+h1 {
+  text-align : center;
+  font-size: 50px;
+  margin-top : 60px;
+  font-family : "Segoe UI";
+  color : white;
+}
+      
+ul {
+    border-bottom-left-radius: 20px ;
+    border-top-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+    border-top-right-radius: 20px ;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7289da;
+}
+
+li {
+    float: right;
+    font-weight: bold;
+    font-family : "Segoe UI";
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #99aab5;
+}
+      
+
+.image_pres {
+   
+    min-height: 80%;
+}
+
+        .text_pres {
+            font-family: "Segoe UI";
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            font-size: 20px;
+        }
+
+* {
+  box-sizing: border-box;
+}
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .flex-item-left {
+            padding: 10px;
+            flex: 30%;
+        }
+
+        .flex-item-right {
+            padding: 10px;
+            flex: 50%;
+            text-align: left;            
+        }
+
+        /* Responsive layout - makes a one column-layout instead of a two-column layout */
+        @media (max-width: 800px) {
+            .flex-item-right, .flex-item-left {
+                flex: 100%;
+            }
+        }
+
+        span {
+            vertical-align: middle;
+            position: relative;
+            top:25%;
+            right:5%;
+        }
+      
+</style></head>
+  <body>
+      <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="projet.html">Projets</a></li>
+          <li><a href="Logiciel.html">Logiciels</a></li>
+          <li><a href="index.html">Accueil</a></li>
+      </ul>
+      <h1>Qui suis-je ?</h1>
+
+      <div class="flex-container" style="margin-top:5%;">
+          <div class="flex-item-left"><img src="profil.jpg"></div>
+          <div class="flex-item-right"><span class="text_pres">Bonjour ! Je suis Alexandre TONCELLI et je suis en fin d'études de BTS Systèmes Numériques, option Informatique et Réseau. Afin de poursuivre mon cursus en licence professionnelle APIDAE, je suis à la recherche d'une alternance dans une société d'édition de jeux vidéo mobiles. J'aime particulièrement la polyvalence qu'ils peuvent avoir, toucher un large public et leur faire vivre différentes expériences. Grand consommateur de jeux mobiles et cotoyant des personnes de profils différents, je pense avoir les moyens et les idées de capter les publics cibles. Grâce à mon caractère curieux et touche-à-tout j'aime apprendre des nouvelles connaissances, sur le plan intellectuel comme sur le plan logiciel.</span></div>
+      </div>
+
+  </body>
+</html>

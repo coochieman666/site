@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="lightbox2-2.11.3/dist/css/lightbox.min.css">
+    <style>
+        body {
+            background-color: #2c2f33;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            margin-top: 60px;
+            font-family: "Segoe UI";
+            color: white;
+        }
+
+        ul {
+            border-bottom-left-radius: 20px;
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-top-right-radius: 20px;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #7289da;
+        }
+
+        li {
+            float: right;
+            font-weight: bold;
+            font-family: "Segoe UI";
+        }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                li a:hover:not(.active) {
+                    background-color: #99aab5;
+                }
+
+        .info td {
+            font-size: 20px;
+            font-weight: bold;
+            font-family: "Segoe UI";
+            color: white;
+
+        }
+
+
+        .presentation td {
+            font-family: "Segoe UI";
+            margin-left: 40px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .text div {
+            font-size: 30px;
+            margin-top: 40px;
+            margin-left: 60px;
+        }
+
+        .example-image-link {
+            width: 250px;
+            height: 250px;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 30px;
+            text-align: center;
+            margin-top:3%;
+        }
+
+        .flex-item-left {
+            padding: 10px;
+            flex: 30%;
+        }
+
+            .flex-item-left img {
+                width: 250px;
+                height: 250px;
+            }
+
+
+        /* Responsive layout - makes a one column-layout instead of a two-column layout */
+        @media (max-width: 800px) {
+            .flex-item-right, .flex-item-left {
+                flex: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <ul>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="projet.html">Projets</a></li>
+        <li><a href="Logiciel.html">Logiciels</a></li>
+        <li><a href="index.html">Accueil</a></li>
+    </ul>
+    <h1>Logiciels</h1>
+    <table>
+        <tbody class="info">
+            <tr>
+                <td>
+                    <div style="margin-left: 60px; float:left;">ⓘ Information : Obtenez un aperçu de mes différentes réalisations sur ces logiciels en cliquant sur les images !</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="flex-container">
+        <div class="flex-item-left"><a class="example-image-link" href="code.png" data-lightbox="example-set" data-title="Script en C++ du déplacement d'un personnage de jeu vidéo - Visual studio"><img class="example-image" src="visual.png" alt="" /></a></div>
+        <div class="flex-item-left"><a class="example-image-link" href="gps.gif" data-lightbox="example-set" data-title="Application de suivi GPS vers un serveur TCP - Android Studio"><img class="example-image" src="android-studio.png" alt="" /></a></div>
+        <div class="flex-item-left"><a class="example-image-link" href="king-gameplay.gif" data-lightbox="example-set" data-title="Jeu en Pixel Art - Unity"><img class="example-image" src="unity.png" alt="" /></a></div>
+    </div>
+
+    <div class="flex-container">
+        <div class="flex-item-left"><a class="example-image-link" href="42.gif" data-lightbox="example-set" data-title="Animation d'un logo 3D - Blender"><img class="example-image" src="blender.png" alt="" /></a></div>
+        <div class="flex-item-left"><a class="example-image-link" href="neon.png" data-lightbox="example-set" data-title="Illustration du mot ''Photoshop'' sous neon - Photoshop"><img class="example-image" src="photoshop.png" alt="" /></a></div>
+        <div class="flex-item-left"><a class="example-image-link" href="dessin-num.png" data-lightbox="example-set" data-title="Dessin numérique - Adobe Animate"><img class="example-image" src="animate.png" alt="" /></a></div>
+    </div>
+
+    <div class="flex-container">
+        <div class="flex-item-left"><a class="example-image-link" href="snap.gif" data-lightbox="example-set" data-title="Filtre Snapchat d'un logo 3D tournant sur une surface grâce à un script - Lens Studio"><img class="example-image" src="lens.png" alt="" /></a></div>
+    </div>
+
+    <script src="lightbox2-2.11.3/dist/js/lightbox-plus-jquery.min.js"></script>
+
+</body>
+</html>
